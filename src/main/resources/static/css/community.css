@@ -17,6 +17,10 @@ body {
     height: 38px;
 }
 
+.media-body {
+    padding-top: 10px;
+}
+
 .text-desc {
     font-size: 12px;
     font-weight: normal;
@@ -28,10 +32,50 @@ body {
 }
 
 .community-menu {
+    display: block;
     color: #999;
     font-size: 13px;
+    margin-bottom: 15px;
 }
 
-.jumbotron{
+.jumbotron {
     margin: 50px;
+}
+
+.comment {
+    margin: 10px 0;
+}
+
+.btn-comment {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.comment-sp{
+    margin: 0;
+}
+
+.menu{
+    color: #999;
+    margin-top: 5px;
+}
+
+.menu .icon{
+    margin-right: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.menu .icon:hover{
+    color: #499ef3;
+}
+
+.comments{
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.question-title{
+    margin-top: 25px;
 }
