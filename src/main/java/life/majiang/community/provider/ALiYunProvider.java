@@ -15,9 +15,9 @@ import java.util.UUID;
 @Service
 public class ALiYunProvider {
 
-    private static String accessKeyId = "LTAI4Fk7P1LZg7p6Jr5YpMtn";
+    private static String accessKeyId = "";
 
-    private static String accessKeySecret = "VH0VnIRlnhzEhlAeiLBLCyVFlhgrMw";
+    private static String accessKeySecret = "";
 
     String endpoint = "http://oss-cn-beijing.aliyuncs.com";
 
